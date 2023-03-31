@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 400px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.bgDark {
+  background-color: #000000;
+  color: #fff;
+}
+.bgLight {
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+.btn {
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
